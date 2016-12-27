@@ -1,0 +1,21 @@
+ISim log file
+Running: E:\xillyFIFO_test\xillyFIFO_test\xillyctr_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/xillyFIFO_test/xillyFIFO_test/xillyctr_test_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Finished circuit initialization process.
+# isim force add /xillyctr_test/busclk 1 -radix bin -value 0 -radix bin -time 5 ns -repeat 10 ns
+# isim force add /xillyctr_test/busclk 1 -radix bin -value 0 -radix bin -time 5 ns -repeat 10 ns
+# isim force add /xillyctr_test/clk 1 -radix bin -value 0 -radix bin -time 5 ns -repeat 10 ns
+# isim force add /xillyctr_test/clk 1 -radix bin -value 0 -radix bin -time 5 ns -repeat 10 ns
+# isim force add /xillyctr_test/fifo_rst 0 -radix bin
+# isim force add /xillyctr_test/fifo_rst 0 -radix bin
+# isim force add /xillyctr_test/xilly_fifo_rst 0 -radix bin
+# isim force add /xillyctr_test/xilly_fifo_rst 0 -radix bin
+# run all
+Stopped at time : 2412460 ns : File "E:/xillyFIFO_test/xillyFIFO_test/fr_ctr.v" Line 26

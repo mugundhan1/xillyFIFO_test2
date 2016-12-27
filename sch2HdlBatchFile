@@ -1,0 +1,1 @@
+sch2hdl,-sympath,E:/xillyFIFO_test/xillyFIFO_test/ipcore_dir,-sympath,E:/xillycounter/ipcore_dir,-intstyle,ise,-family,virtex5,-verilog,E:/xillyFIFO_test/xillyFIFO_test/xillyctr.vf,-w,E:/xillyFIFO_test/xillyFIFO_test/xillyctr.sch

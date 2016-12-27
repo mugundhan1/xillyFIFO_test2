@@ -1,0 +1,28 @@
+Command line:
+   xillyctr_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58489
+
+Sat Dec 24 10:10:46 2016
+
+
+ Elaboration Time: 0.312002 sec
+
+ Current Memory Usage: 518.386 Meg
+
+ Total Signals          : 1191
+ Total Nets             : 5156
+ Total Signal Drivers   : 278
+ Total Blocks           : 53
+ Total Primitive Blocks : 30
+ Total Processes        : 449
+ Total Traceable Variables  : 1425
+ Total Scalar Nets and Variables : 598077
+
+ Total Simulation Time: 112.087 sec
+
+ Current Memory Usage: 518.386 Meg
+
+Sat Dec 24 10:14:44 2016
+

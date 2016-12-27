@@ -1,0 +1,51 @@
+Running: E:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/xillyFIFO_test/xillyFIFO_test/xillyctr_test_isim_beh.exe -prj E:/xillyFIFO_test/xillyFIFO_test/xillyctr_test_beh.prj work.xillyctr_test work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/ipcore_dir/xilly_data_fifo.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/../../xillycounter/ipcore_dir/ctr_fifo.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/../../XillyLBI/ver1/fifo_wrap.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/../../XillyLBI/ver1/counter.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/xilly_data_fifo_wrap.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/Mux_8_bit.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/clk_ctrl.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/hdr_ram.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/fr_ctr.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/ctrl_mod.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/byte_reorder.v" into library work
+Analyzing Verilog file "E:/xillyFIFO_test/xillyFIFO_test/xillyctr_test.vf" into library work
+Analyzing Verilog file "E:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IBUFG
+Compiling module BUFG
+Compiling module PLL_ADV(CLKFBOUT_MULT=8,CLKIN1_P...
+Compiling module clk_ctrl
+Compiling module INV
+Compiling module counter
+Compiling module fifo_generator_v9_3_sync_stage(C...
+Compiling module fifo_generator_v9_3_sync_stage(C...
+Compiling module fifo_generator_v9_3_bhv_ver_as(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_DATA_COUNT...
+Compiling module ctr_fifo
+Compiling module fifo_wrap
+Compiling module hdr_ram
+Compiling module fr_ctr
+Compiling module Ctrl
+Compiling module Mux_8_bit
+Compiling module fifo_generator_v9_3_bhv_ver_ss(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_COMMON_CLO...
+Compiling module xilly_data_fifo
+Compiling module xilly_data_fifo_wrap
+Compiling module byte_reorder_8bit
+Compiling module xillyctr_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable E:/xillyFIFO_test/xillyFIFO_test/xillyctr_test_isim_beh.exe
+Fuse Memory Usage: 45572 KB
+Fuse CPU Usage: 2043 ms
